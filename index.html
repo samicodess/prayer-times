@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Islamic Prayer Times</h2>
+      <div id="locationForm">
+        <label for="country">Country:</label>
+        <input
+          type="text"
+          id="country"
+          placeholder="Enter country name"
+          required
+        />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter city name" required />
+
+        <button id="getPrayerTimesBtn">Get Prayer Times</button>
+      </div>
+
+      <div id="prayerTimes">
+        <!-- Display prayer times here -->
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
